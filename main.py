@@ -1,4 +1,3 @@
-name = input("Enter your name: ")
 print("welcome " + name, "to your Grade Tracker")
 
 grade1 = int(input("Enter your first grade: "))
@@ -23,6 +22,11 @@ while grade3 < 0 or grade3 > 100:
     print("Error: Grade 3 is out of range. Please enter a grade between 0 and 100.")
     grade3 = int(input("Enter your third grade: "))
     
-    average = (grade1 + grade2 + grade3) / 3
-print(f" your average is: {average}")
+average = (grade1 + grade2 + grade3) / 3
 
+print(f" your average is: {average}")
+if average >= 70:
+    print("Congratulations! You passed.")
+else:
+    print("Sorry, you did not pass. Better luck next time.")
+    
