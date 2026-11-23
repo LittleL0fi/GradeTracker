@@ -22,7 +22,8 @@ while grade3 < 0 or grade3 > 100:
     print("Error: Grade 3 is out of range. Please enter a grade between 0 and 100.")
     grade3 = int(input("Enter your third grade: "))
     
-    average = (grade1 + grade2 + grade3) / 3
+average = (grade1 + grade2 + grade3) / 3
+
 print(f" your average is: {average}")
 if average >= 70:
     print("Congratulations! You passed.")
