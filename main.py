@@ -1,3 +1,4 @@
+name = input("Enter your name: ")
 print("welcome " + name, "to your Grade Tracker")
 
 grade1 = int(input("Enter your first grade: "))
